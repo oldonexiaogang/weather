@@ -1,0 +1,26 @@
+{
+    "name": "happybean\/weather",
+    "description": "weather",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "小风",
+            "email": "871884930@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Happybean\\Weather\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Happybean\\Weather\\ServiceProvider"
+            ]
+        }
+    }
+}
